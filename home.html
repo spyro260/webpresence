@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Character definition -->
+	<meta charset = "utf-8">
+<!-- Link to the CSS sheet -->
+	<link rel="stylesheet" href="stylesheet.css">
+<!-- Titles the tab in the browser -->
+	<title>Home</title>
+</head>
+
+<body>
+<!-- Text title of the page (centered) -->
+	<h1>Site Test Bed</h1>
+	
+	<div style="border-right: 5px solid DodgerBlue; border-left: 5px solid DodgerBlue; border-top: 5px solid DodgerBlue; border-bottom: 5px solid DodgerBlue; background-color: #b3b3cc; height: 85px; border-color: #00b33c; padding-top: 1px; padding-bottom: 3px">
+<!-- Header two -->
+	<h2>Created for quick links</h2>
+<!-- Text is styled in-line here because I don't know how to link it to CSS sheets when it's in a div -->
+<!-- Figure out linking the style later, should be the same as outside a div -->
+		<div style="text-align: center;">
+<!-- This is the paragraph that defines the area above the colored boxes -->				
+				<p>
+					<span style="border-left: 4px solid DodgerBlue; padding: 2px; background-color: lightgreen; padding: 2px;"><a href="https://www.seekadventuremedia.com/" style="text-decoration: none;" target="_blank">Home</a></span>
+					<span style="border-left: 4px solid DodgerBlue; background-color: lightgreen; padding: 2px;"><a href="https://www.seekadventuremedia.com/costa-rica.html" style="text-decoration: none;" target="_blank">Photography</a></span>	
+					<span style="border-left: 4px solid DodgerBlue; background-color: lightgreen; padding: 2px;"><a href="https://www.seekadventuremedia.com/about.html" style="text-decoration: none;" target="_blank">About</a></span>	
+					<span style="border-left: 4px solid DodgerBlue; background-color: lightgreen; padding: 2px;"><a href="https://www.seekadventuremedia.com/contact.html" style="text-decoration: none;" target="_blank">Contact</a></span>				
+				</p>	
+		</div>
+		</div>
+		<br />
+		<br />
+<!-- A simple text placeholder -->
+	<p1>Welcome to the resources page</p1>
+		<br />
+		<br />
+<!-- This is the actual clickable button -->
+			<div style="text-align: center;">
+				<button onclick="refreshPage()">Refresh Page</button>
+			</div>
+<!-- This is the script link for the button that refreshes the page -->
+			<script src="buttonscript.js"></script>
+<!-- Creates line breaks because I don't know how else to skip lines other than creating separate divs -->		
+		<br />
+		<br />
+<!-- Just a couple simple lists -->
+<!-- Unordered list -->
+<ul>
+	<li>Parmesan</li>
+	<li>Pizza</li>
+	<li>Mac and Cheese</li>
+</ul>
+<!-- There are a couple of different list item bullet types:
+	in the list definition type - style="list-styles-type:[square][circle][disc][none] -->
+<!-- This is a special type of list where the list is ordered -->
+	<br />
+	
+	<div style="border-right: 5px solid DodgerBlue; border-left: 5px solid DodgerBlue; border-top: 5px solid DodgerBlue; border-bottom: 5px solid DodgerBlue;">
+		<p style="text-align: center;"><span style="font-size: 150%; text-shadow: 0px 0px 5px; -color: #b3b3cc; padding: 3px;"><a href="http://natsci.eckerd.edu/~mauchh/AT16-2018/Welcome.html" style="text-decoration: none;" target="_blank">Click me to go to our class main page!</a></span></p>	
+		<p style="text-align: center;">Use the above link to visit the class "portal" to see homework and assignments</p>	
+	</div>
+<ol>
+	<li style="font-family: verdana";>Item One</li>
+		<ul>
+			<li>That was a special item with a different font</li>
+		</ul>
+	<li>Item Two</li>
+	<li>Item Three</li>
+</ol>
+		<br />
+		<br />
+<!-- This div designated the box for clickButton -->
+		<div>
+			<button type="button" onclick="document.getElementById('dateText').innerHTML = Date()">Click me to display date and time!</button>
+		</div>
+		<p id="dateText"></p>
+		<br />
+		<!-- This div contains the one image on this main page -->
+	<div>
+		<a href="https://www.seekadventuremedia.com/" target="_blank"><img src="dog.jpg" alt="Picture of a Dog" style="margin-left: auto; margin-right: auto; display: block; widht: 50%; height: 400px;"></a>
+	</div>
+		<br />
+<!-- The div pageBottomText is styled in-line for ease of access and aligns the text center and chooses font -->		
+		<div id="pageBottomText" style="text-align: center; font-family: verdana;">
+<!-- Creates the text inside the div -->
+			<p style="font-size:10px"><a href="https://www.seekadventuremedia.com/" style="text-decoration: none;">Site created by Penh Alicandro</a></p>		
+		</div>
+</body>
+</html>

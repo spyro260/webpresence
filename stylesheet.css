@@ -1,0 +1,31 @@
+body{
+	font-family: courier;
+	background-color: lightgrey;
+}	
+h1 {
+	color: purple;
+	font-family: impact;
+	font-size: 350%;
+	text-align: center;
+	text-shadow: 0px 0px 20px black;
+}
+h2 {
+	text-align: center;
+	font-size: 100%;
+}
+p1 {
+	color : blue;
+	font-family: OCR A Std, monospace;
+	
+}
+
+pageBottomDiv {
+	position: relative;
+}
+
+pageBottomText {
+	postition: absolute; bottom:
+}
+about {
+	background-color: blue;
+}
